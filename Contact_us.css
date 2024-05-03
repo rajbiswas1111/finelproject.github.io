@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color:rgb(131, 80, 157);
+    font-family: sans-serif;
+    color: #000000;
+}
+.container{
+    width: 100%;
+    margin: 25vh auto;
+    display: flex;
+    justify-content: center; 
+}
+.contact, .content{
+    width: 100%;
+    padding: 25px;
+   
+}
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 5px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.contact h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+    color: #ecd10b;
+    text-align: center;
+
+}
+
+.content h1{
+    width: 35%;
+    text-align: center;
+  
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #ecd10b;
+    margin-bottom: 20px;
+    
+}
+.content h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ecd10b;
+}
+.content p{
+    color: #222;
+    font-size: 27px;
+    line-height: 30px;
+}
+label{
+    color: black;  
+    font-size: 17px;
+    display: black;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+input, textarea{
+    
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+}
+button{
+    font-size: 17px;
+    background-color: #82104f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color:#ecd10b;
+}
+@media screen and (max-width:768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
